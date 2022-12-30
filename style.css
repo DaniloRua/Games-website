@@ -1,70 +1,118 @@
-*{
-    margin:0%;
-    padding: 0%;
-    
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
-    
-    height: 100%;
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-    background-color: rgb(50, 50, 50) ;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(50, 50, 50);
+}
+
+header{
+    height: 10vh;
+
 }
 
 .vanish {
-    animation: vanish  forwards 1s;
-    width: 1px;
+  animation: vanish forwards 1s;
+  width: 1px;
 }
 
-.loader{
-    position: absolute;
-    top:0; 
-    left:0;
-    background-color: rgb(50, 50, 50);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(50, 50, 50);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
 }
-#loader-gif{
-    width: 5rem;
-    height: 5rem;
-}
-
-.header-section{
-    background-color: rgb(50, 50, 50);
-    overflow: hidden;
-    padding: 2rem;
-    border-bottom: 1px solid greenyellow
-}
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+#loader-gif {
+  width: 5rem;
+  height: 5rem;
 }
 
-.main-menu{
-    display: flex;
-    flex-direction: row;    
+.header-section {
+  background-color: rgb(50, 50, 50);
+  overflow: hidden;
+  padding: 2rem;
+  border-bottom: 1px solid rgb(166, 213, 255);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.main-menu {
+  display: flex;
+  flex-direction: row;
+}
 
 .main-menu ul {
-	list-style: none;
+  list-style: none;
 }
 
 .main-menu ul li {
-	display: inline;
-
+  display: inline;
+  margin: 2rem;
+  color: whitesmoke;
 }
+
+.main-menu ul li a {
+  display: inline-block;
+  font-size: 16px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.main-menu ul li a:hover {
+  color: rgb(91, 167, 233);
+}
+
+.user-display {
+  background-color: rgb(91, 167, 233);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 15px;
+  margin: 1rem;
+  font-weight: 400;
+  width: 10rem;
+  height: 2.5em;
+}
+
+.user-display a {
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.user-display a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
 @keyframes vanish {
-    from {
-        opacity: 100%;
-    }
-    to {
-        opacity: 0%;
-    }
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
 }
