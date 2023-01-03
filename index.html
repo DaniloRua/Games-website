@@ -14,15 +14,23 @@
 </head>
 
 <body>
-     <div class="loader" id="loader">
-            <img src="./assets/ghostGif.gif" id="loader-gif" alt="gif">
-        
+    <div class="loader" id="loader">
+        <img src="./assets/ghostGif.gif" id="loader-gif" alt="gif">
+
     </div>
     <header class="header-section">
-        <div class="container">
+        <div class="bars-menu-icon" onclick="openMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <div class="container-header">
             <a class="site-logo" href="index.html">
                 <img src="/assets/vortex.svg" alt="logo">
+                
             </a>
+            
             <nav class="main-menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -32,16 +40,41 @@
                     
                 </ul>
             </nav>
-
+           
             <div class="user-display">
                 <a href="#">Login</a>
                 <a href="#">Register</a>
             </div>
         </div>
+    
     </header>
 
 
 
+
+
+
+
+    <main class="main-section">
+        <nav class="bars-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/Games.html">Games</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="#">About</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h2>The Best <span>Old and Clasic</span> Games </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br>
+                <a href="/about.html" class="site-btn">Read More</a>
+        </div>
+
+        </section>
+
+    </main>
 
     <script src="main.js"></script>
 
