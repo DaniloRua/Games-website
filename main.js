@@ -10,6 +10,6 @@ function vanish(){
 function openMenu()
 {
     bars.classList.toggle('open-menu')
-    barsMenu.classList.add('open-bars-menu')
+    barsMenu.classList.toggle('bars-menu-active')
 }
 
