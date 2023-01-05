@@ -17,7 +17,7 @@ body {
 }
 
 header{
-    height: 5vh;
+    height: 1vh;
 
 }
 
@@ -155,8 +155,8 @@ a {
   }
 
   .user-display{
-    width: 12rem;
-    height: 2.5rem;
+    width: 10rem;
+    height: 1.5rem;
     padding: 2%;
   }
   .main-menu{
@@ -166,11 +166,11 @@ a {
   .bars-menu-icon{
     display: flex;
     flex-direction:column;
-
   }
+
   .bar{
     width: 2.5rem;
-    height: 0.3rem;
+    height: 0.2rem;
     background-color: whitesmoke;
     margin: 6px 0;
     transition: 0.5s;
@@ -216,38 +216,104 @@ background-color:rgb(91, 167, 233);
 .bars-menu-active ul li a{
   color: whitesmoke;
   font-size: 16px;
+  }
+
+.main-container{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.main-background{
+  background-size: cover;
+  
+}
+}
+
+
+
+.main-background {
+  background-image: url(./assets/wallpaperflare.com_wallpaper\ atari.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+  height: 80vh;
+  width: 100%;
+  z-index: 9999;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+
+}
+
+
+.main-container{
   
-} 
+  z-index: 1;
+  color: whitesmoke;
+  font-family: videogame;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 
-.main-section{
-  height: 75vh;
-  width: 100%;
-  background-image: url();
-  z-index: -1;
-  background-origin:padding-box;
-  background-size: 100%;
-  color: white;
-  font-family:videogame;
+.main-container  h2 {
+   
+  font-size: 2rem;
 
 
 }
 
 
+.highlighter {
+  color:  rgb(91, 167, 233);
+}
+
+.read-more-btn{
+  background-color: rgb(91, 167, 233);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 15px;
+  margin: 1rem;
+  font-weight: 400;
+  width: 8rem;
+  height: 2.5em;
+  font-family: "roboto", sans-serif;
+  color: whitesmoke;
+  
+}
+
+.read-more-btn:hover{
+  color: rgb(50, 50, 50);
+}
 
 
+p{
+  font-family: "roboto", sans-serif;
+  color: whitesmoke;
+}
 
 
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 10vh;
+width: 100%;
+color: whitesmoke;
 
-
-
-
-
-
+}
 
 @keyframes vanish {
   from {
@@ -261,9 +327,8 @@ background-color:rgb(91, 167, 233);
 @keyframes slideDown {
   0% { 
     opacity: 0;
-    transform: translateY(-40px)
+    transform: translateY(-10px)
   }
-
   100% {
     opacity: 1;
     transform: translateY(0)
