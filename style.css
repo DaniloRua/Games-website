@@ -133,12 +133,6 @@ a {
 
 
 
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
 
   .bars-menu{
@@ -240,10 +234,7 @@ footer p {
 } 
 }
 
-.main-section{
-  position: fixed;
-  
-}
+
 
 .main-background {
   background-image: url(./assets/wallpaperflare.com_wallpaper\ atari.jpg);
@@ -257,7 +248,6 @@ footer p {
   align-items: flex-start;
   justify-content: center;
 }
-
 
 .main-container{
   z-index: 1;
@@ -311,7 +301,7 @@ p{
 
 
 footer{
-  border: 1px solid red;
+
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -321,6 +311,60 @@ width: 100%;
 color: whitesmoke;
 
 }
+
+
+
+
+/*social link*/
+.fa {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #fd071c;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.contact-us{
+  font-family: videogame;
+  color: whitesmoke;
+  font-size: 50px;
+}
+.contact-background{
+
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+
 
 @keyframes vanish {
   from {
