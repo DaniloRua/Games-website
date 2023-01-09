@@ -240,10 +240,22 @@ background-color:rgb(91, 167, 233);
 }
 footer p {
   font-size: 12px;
+  
 } 
 
-
-
+.about-container{
+  color: whitesmoke;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+  height: 80vh;
+  padding: 1rem;
+}
+.about-background{
+  width: 100%;
+}
 }
 
 
@@ -267,16 +279,12 @@ footer p {
   font-family: videogame;
   display: flex;
   flex-direction: column;
- 
-  
-}
 
+}
 
 .main-container  h2 {
    
   font-size: 2rem;
-
-
 }
 
 
@@ -323,9 +331,6 @@ width: 100%;
 color: whitesmoke;
 
 }
-
-
-
 
 /*social link*/
 .fa {
@@ -408,12 +413,39 @@ color: whitesmoke;
   font-size: 1rem;
 }
 
-
 .about-background{
-  width: 80vh;
-  background-color: #fd071c;
-  background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/pacaman2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
+
+
+
+.about-us{
+  font-family: videogame;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.about-container{
+  color: whitesmoke;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: fit-content;
+  height: 80vh;
+  padding: 1rem;
+}
+
+
+
+
+
 
 
 
