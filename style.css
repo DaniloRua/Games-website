@@ -229,9 +229,21 @@ background-color:rgb(91, 167, 233);
   background-size: cover;
 }
 
+.contact-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+   
+}
+.social-links{
+  margin-bottom: 30%;
+}
 footer p {
   font-size: 12px;
 } 
+
+
+
 }
 
 
@@ -322,7 +334,7 @@ color: whitesmoke;
   width: 2rem;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 4px 1px;
   border-radius: 5px;
   
 }
@@ -348,7 +360,11 @@ color: whitesmoke;
   color: white;
 }
 .contact-background{
-
+  background-image: url(./assets/pacman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 80vh;
   width: 100%;
   display: flex;
@@ -356,12 +372,12 @@ color: whitesmoke;
   
 }
 
-
 .contact-container{
   display: flex;
   flex-direction: column;
-  gap:  4rem;
+  gap:  1rem;
   margin: 1rem;
+  height: 100%;
 }
 
 .contact-us{
@@ -371,17 +387,32 @@ color: whitesmoke;
   
 }
 
+.social-links{
+  display: flex;
+  gap: 1.8rem;
+  
+}
+.contact-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin-top: 15rem; 
+}
+
+
 .contact-list li{
   list-style: none;
   display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin: 1rem;
-  
+  gap: 8rem;
   color: whitesmoke;
   font-size: 1rem;
-  
-  
+}
+
+
+.about-background{
+  width: 80vh;
+  background-color: #fd071c;
+  background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
 }
 
 
