@@ -220,12 +220,13 @@ a {
     margin-bottom: 30%;
   }
 
-  footer {
+  .footer-section {
     font-size: 12px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     height: 8vh;
+    width: 100%;
+
   }
 
   .about-container {
@@ -301,9 +302,9 @@ p {
 .footer-section {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  height: 10vh;
-  width: 60%;
+  justify-content: center;
+  height: 7vh;
+  width: 100%;
 }
 
 /*social link*/
